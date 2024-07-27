@@ -11,6 +11,8 @@ const App = () => {
   <>
   <Router>  
     <Routes>
+
+      {/* use Tailwind and make reponsive */}
       <Route path='/' element={ <Home />} />
       <Route path='/:idMeal' element={ <RecipeId />} />
       <Route path='/category/:name' element={ <Category />} />
